@@ -1,30 +1,34 @@
 # frozen_string_literal: true
 
-# here is the top level documentation
-class Person
-  attr_accessor :name, :age
-  attr_reader :id
+require_relative 'nameable'
+require_relative 'capitalize_decorator'
+require_relative 'trimmer_decorator'
 
+# here is the top level documentation
+class Person < Nameable
   def initialize(age, name = 'Unknown', parent_permission: true)
+    super()
     @id = Random.rand(1..1000)
     @name = name
     @age = age
     @parent_permission = parent_permission
   end
 
-  private
+  attr_reader :id
+
+  attr_accessor :name, :age
 
   def of_age?
     @age >= 18
   end
 
-  public
+  private :of_age?
 
   def can_use_services?
-    if of_age? || @parent_permission
-      true
-    else
-      false
-    end
+    of_age? || @parent_permission
+  end
+
+  def correct_name
+    @name
   end
 end

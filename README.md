@@ -1,26 +1,28 @@
 # 📗 Table of Contents
-- 📖 About the Project
-- 🛠 Built With
-- Tech Stack
-- Key Features
-- 💻 Getting Started
-- Setup
-- Prerequisites
-- 👥 Authors
-- 🔭 Future Features
-- 🤝 Contributing
-- ⭐️ Show your support
-- 🙏 Acknowledgements
-- ❓ FAQ
-- 📝 License
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+      - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 
-## 📖 OOP School Library
+## 📖 OOP School Library  <a name="about-project"></a>
 This is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
 
-## 🛠 Built With
+## 🛠 Built With <a name="built-with"></a>
 
-Tech Stack
+## Tech Stack <a name="tech-stack"></a>
 
 - [Ruby](https://www.ruby-lang.org/en/)
 
@@ -30,7 +32,7 @@ Tech Stack
 - [ ] **[Keep track of books borrowed from a libary]**
 - [ ] **[Created by using Ruby that allows to add students or teachers, add new books and save records of who borrowed a given book.]**
 
-## 💻 Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
