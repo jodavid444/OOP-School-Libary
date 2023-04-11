@@ -1,10 +1,12 @@
+# OOP SCHOOL LIBRARY development
 # frozen_string_literal: true
 
-require_relative 'person'
+require_relative './person'
 
+# here is the top level documentation
 class Teacher < Person
-  def initialize(specialization, age, name = 'Unknown', parent_permission: true)
-    super(age, name, parent_permission: parent_permission)
+  def initialize(age, specialization, name = 'Unknown', parent_permission: true)
+    super(age, name, parent_permission)
     @specialization = specialization
   end
 
