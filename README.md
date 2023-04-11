@@ -2,7 +2,6 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -22,8 +21,6 @@ This is a school library tool that allows you to record what books are in the li
 
 ## 🛠 Built With
 
-Tech Stack
-
 - [Ruby](https://www.ruby-lang.org/en/)
 
 ## Key Features
@@ -32,7 +29,7 @@ Tech Stack
 - [ ] **[Keep track of books borrowed from a libary]**
 - [ ] **[Created by using Ruby that allows to add students or teachers, add new books and save records of who borrowed a given book.]**
 
-## 💻 Getting Started
+## 💻 Getting Started 
 
 To get a local copy up and running, follow these steps.
 
