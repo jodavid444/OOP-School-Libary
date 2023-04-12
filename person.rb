@@ -3,7 +3,6 @@
 require_relative 'nameable'
 require_relative 'capitalize_decorator'
 require_relative 'trimmer_decorator'
-require_relative 'rentals = [ ]'
 
 # here is the top level documentation
 class Person < Nameable
@@ -13,6 +12,7 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   attr_reader :id
