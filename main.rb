@@ -3,13 +3,11 @@
 require_relative 'app'
 
 def main
-    app = App.new
-    loop do
-      app.run
-      puts
-    end
+  app = App.new
+  loop do
+    app.run
+    puts
   end
-  
-main 
+end
 
-
+main

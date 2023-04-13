@@ -36,7 +36,6 @@ class App
     end
   end
 
-  
   def list_all_people
     if @people.empty?
       puts 'No person added to the system'
@@ -174,5 +173,4 @@ class App
     display_cmd
     exit_option
   end
-  
 end
