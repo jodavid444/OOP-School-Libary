@@ -1,8 +1,3 @@
-# frozen_string_literal: true
-
-require_relative 'rental'
-
-# here is the top level documentation
 class Book
   attr_accessor :title, :author, :rentals
 
@@ -12,7 +7,7 @@ class Book
     @rentals = []
   end
 
-  def rent(date, person)
-    Rental.new(date, self, person)
+  def add_rental(rental)
+    @rentals.push(rental)
   end
 end
