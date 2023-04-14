@@ -1,9 +1,28 @@
+# frozen_string_literal: true
+
 require_relative 'student'
 require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
 
+# here is the top level documentation
 class App
+  def list_all_books
+    if @books.empty?
+      puts 'No books have yet been created!'
+    else
+      @books.each_with_index do |book, index|
+        puts "#{index}. Title: #{book.title}, Author: #{book.author}"
+      end
+    end
+  end
+
+  def display_cmd
+    @cmd.each do |index, command|
+      puts "#{index} - #{command}"
+    end
+  end
+
   def initialize
     @cmd = {
       '1': 'List all books',
@@ -18,22 +37,6 @@ class App
     @books = []
 
     @people = []
-  end
-
-  def display_cmd
-    @cmd.each do |index, command|
-      puts "#{index} - #{command}"
-    end
-  end
-
-  def list_all_books
-    if @books.empty?
-      puts 'No books have yet been created!'
-    else
-      @books.each_with_index do |book, index|
-        puts "#{index}. Title: #{book.title}, Author: #{book.author}"
-      end
-    end
   end
 
   def list_all_people
@@ -108,26 +111,7 @@ class App
     puts 'Book Created Successfully'
   end
 
-  def create_rental()
-    puts 'Select a book from the list by number'
-    list_all_books
-    book_option = gets.chomp.to_i
-    puts
-
-    puts 'Select a person from the list by number (NOT ID!)'
-    list_all_people_with_index
-    person_option = gets.chomp.to_i
-    puts
-
-    print 'Date: '
-    date = gets.chomp
-
-    Rental.new(date, @books[book_option], @people[person_option])
-
-    puts 'Rental Created Successfully'
-  end
-
-  def rentals_of_person()
+  def rentals_of_person
     puts 'All people in the system'
     list_all_people
     print 'Id of the person: '
@@ -146,6 +130,25 @@ class App
         end
       end
     end
+  end
+
+  def create_rental
+    puts 'Select a book from the list by number'
+    list_all_books
+    book_option = gets.chomp.to_i
+    puts
+
+    puts 'Select a person from the list by number (NOT ID!)'
+    list_all_people_with_index
+    person_option = gets.chomp.to_i
+    puts
+
+    print 'Date: '
+    date = gets.chomp
+
+    Rental.new(date, @books[book_option], @people[person_option])
+
+    puts 'Rental Created Successfully'
   end
 
   def choose_option(input)
