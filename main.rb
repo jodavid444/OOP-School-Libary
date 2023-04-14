@@ -11,7 +11,7 @@ def main
     5.Create a rental
     6.List all rentals for a given Person ID
     7.Exit\n"
-    
+
   app = App.new
   while main_menu
     print main_menu
