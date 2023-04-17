@@ -51,8 +51,8 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
- cd OOP-School-Libary
- git clone github.com/jodavid444/OOP-School-Libary.git
+ cd oop-school-libary-
+ git clone github.com/jodavid444/oop-school-libary-.git
 
 ```
 
@@ -61,7 +61,7 @@ Example commands:
 Example command:
 
 ```sh
- cd OOP-School-Libary
+ cd oop-school-libary-
   bundle install (install all dependencies)
 ```  
 
