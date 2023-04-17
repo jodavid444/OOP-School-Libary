@@ -5,8 +5,6 @@ require_relative 'rental'
 
 class App
   def initialize
-
-
     @books = []
 
     @people = []
