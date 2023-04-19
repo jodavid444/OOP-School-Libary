@@ -1,23 +1,24 @@
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-      - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+- [📗 Table of Contents](#-table-of-contents)
+  - [📖 OOP School Library ](#-oop-school-library--)
+  - [🛠 Built With ](#-built-with-)
+  - [Tech Stack ](#tech-stack-)
+  - [Key Features](#key-features)
+  - [💻 Getting Started ](#-getting-started-)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+  - [Authors ](#authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
+## 📖 OOP School Library <a name="about-project"></a>
 
-## 📖 OOP School Library  <a name="about-project"></a>
 This is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -63,14 +64,14 @@ Example command:
 ```sh
  cd oop-school-libary-
   bundle install (install all dependencies)
-```  
+```
 
-## Usage 
+## Usage
 
 ```sh
- ruby main.rb  (run the app locally) 
+ ruby main.rb  (run the app locally)
 
-```  
+```
 
 ## Authors <a name="authors"></a>
 
@@ -81,6 +82,14 @@ Example command:
 - Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
 
 - LinkedIn: [@joseph-david](https://www.linkedin.com/in/joseph-david-/)
+
+👤 **Rachel Isaac**
+
+- GitHub: [@rachelwebdev](https://github.com/Rachelwebdev)
+-
+- Twitter:[@rachelisaac13](https://twitter.com/Rachelisaac13)
+-
+- LinkedIn: [Rachel Isaac](https://www.linkedin.com/in/rachelisaac13/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
