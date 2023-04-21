@@ -76,7 +76,7 @@ Example command:
 ## Test
 
 ```sh
- run rspec  (test the app locally)
+ run rspec  (for testing the web app)
 
 ```
 
