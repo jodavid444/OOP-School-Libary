@@ -10,6 +10,7 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
+  - [Test](#test)
   - [Authors ](#authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -70,6 +71,12 @@ Example command:
 
 ```sh
  ruby main.rb  (run the app locally)
+
+```
+## Test
+
+```sh
+ run rspec  (test the app locally)
 
 ```
 
